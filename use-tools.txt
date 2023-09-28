@@ -1,0 +1,3 @@
+
+
+next.js - clerk - mongoose - uploadthing - shadcn - tailwind - webHooks 
