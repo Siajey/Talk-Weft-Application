@@ -94,7 +94,7 @@ async function fetchAllChildThreads(threadId: string): Promise<any[]> {
 
   const descendantThreads = [];
   for (const childThread of childThreads) {
-    const descendants = await fetchAllChildThreads(childThread._id);
+    const descendants = await fetchAllChild(childThread._id);
     descendantThreads.push(childThread, ...descendants);
   }
 
